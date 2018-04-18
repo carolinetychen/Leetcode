@@ -18,14 +18,16 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> output;
-        map<int, int> hashmap;
+        map<int, int> Map;
         map<int, int>::iterator iter;
+        // Copy items to map, Map[number] = index
         for (int i = 0 ; i < nums.size(); i++)
-            hashmap[nums[i]] = i;
+            Map[nums[i]] = i;
+        // Find if complement exist
         for (int i = 0; i < nums.size(); i++) {
             int complement = target - nums[i];
-            iter = hashmap.find(complement);
-            if (iter != hashmap.end() && iter->second != i) {
+            iter = Map.find(complement);
+            if (iter != Map.end() && iter->second != i) {
                 output.push_back(i);
                 output.push_back(iter->second);
                 return output;
