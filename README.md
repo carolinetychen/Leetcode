@@ -1,6 +1,6 @@
 # Leetcode
 
-|  #   | Title | Solution |
+|  No. | Title | Solution |
 |:----:|-------------|------|
 | 1    | [Two Sum](https://leetcode.com/problems/array-partition-i/description/) | [C++](https://github.com/carolinetychen/Leetcode/tree/master/Algorithms/TwoSum) |
 | 561  | [Array Partition I](https://leetcode.com/problems/array-partition-i/description/)| [C++](https://github.com/carolinetychen/Leetcode/tree/master/Algorithms/ArrayPartitionI) |
