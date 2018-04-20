@@ -13,6 +13,7 @@
 // Explanation: n is 2, and the maximum sum of pairs is 4 = min(1, 2) + min(3, 4).
 // *************************************************
 
+// Pair the integers two by two in sorted order
 class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
