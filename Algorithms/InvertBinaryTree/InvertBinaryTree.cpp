@@ -2,6 +2,8 @@
 // Leetcode Solution
 // Author: Caroline Chen
 // *************************************************
+
+// Time complexity: O(n)
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
