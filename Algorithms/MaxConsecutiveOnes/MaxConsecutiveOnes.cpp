@@ -23,6 +23,7 @@ public:
         int tmp = 0;
         
         for (int i = 0; i < nums.size(); i++) {
+            // If nums[i] == 1, check if consecutive sum is larger than max
             if (nums[i] == 1) {
                 if (++tmp > max)
                     max = tmp;
