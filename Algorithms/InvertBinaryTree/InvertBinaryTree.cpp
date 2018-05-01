@@ -16,6 +16,7 @@
 // 9   6 3   1
 
 // Time complexity: O(n)
+// Recursive
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -23,7 +24,9 @@ public:
             return NULL;
         
         TreeNode *tmp = new TreeNode(root->val);
+        // Invert the sub-tree of the child on the right
         tmp->left = invertTree(root->right);
+        // Invert the sub-tree of the child on the left
         tmp->right = invertTree(root->left);
         
         return tmp;
