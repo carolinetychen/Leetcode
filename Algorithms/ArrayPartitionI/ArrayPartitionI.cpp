@@ -18,8 +18,10 @@ class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
         int output = 0;
+        // Sort string
         sort(nums.begin(), nums.end());
         for (int i = 0; i < nums.size(); i += 2)
+        	// Add num to sum
             output += nums[i];
         return output;
     }
