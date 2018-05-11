@@ -16,3 +16,4 @@
 |  No. | Title | Solution |
 |:----:|-------------|------|
 | 192  | [Word Frequency](https://leetcode.com/problems/word-frequency/description/) | [Shell](https://github.com/carolinetychen/Leetcode/tree/master/Shell/WordFrequency) |
+| 193  | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [Shell](https://github.com/carolinetychen/Leetcode/tree/master/Shell/ValidPhoneNumbers) |
