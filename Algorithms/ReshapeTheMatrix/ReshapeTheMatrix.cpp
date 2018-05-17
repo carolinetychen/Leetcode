@@ -39,7 +39,8 @@
 // Space Complexity: O(r * c)
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<vector<int>> matrixReshape(vector<vector<int>>& nums, int r, int c) {
+        vector<vector<int>> output;
         int row = nums.size();
         int col = nums[0].size();
         int r_tmp = 0;
